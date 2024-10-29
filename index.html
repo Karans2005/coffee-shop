@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop's</title>
+    <!-- font awesome cdn link. is a framework. we use speacial icons.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- custom css file link  -->
+     <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+
+
+    <!-- header section start  -->
+
+    <header class="header">
+        <!-- logo -->
+        <a href="#" class="logo">
+            <img src="logo-img.png" alt="" >
+        </a>
+
+        <!-- navbar -->
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <!-- icons -->
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <!-- search button for input -->
+         <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+         </div>
+
+         <!-- add to cart option -->
+
+         <div class="cart-items-container">
+            
+            <!-- cart 1 -->
+            <div class="cart-item">
+                <!-- add to cart me product ke side cut wala option ke liye  -->
+                <span class="fas fa-times"></span>
+                <img src="cart--1.jpg" alt="" style="height: 60px;  width: 110px; border-radius: 50%;">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <!-- cart 2 -->
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart-4.webp" alt="" style="height: 60px;  width: 110px; border-radius: 50%;">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+             <!-- cart 3 -->
+             <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart-2.jpg" alt="" style="height: 60px;  width: 110px; border-radius: 50%;">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+             <!-- cart 4 -->
+             <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="cart--3.webp" alt="" style="height: 60px;  width: 110px; border-radius: 50%;">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <!-- checkout link  -->
+             <a href="#" class="btn">checkout now</a>
+
+         </div>
+    </header>
+    <!-- header section end -->
+    
+<!-- home section start  -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum delectus maiores.</p>
+        <a href="#" class="btn">get it now</a>
+    </div>
+</section>
+
+<!-- home section end -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>about</span> us</h1>
+
+    <div class="row">
+     
+    <div class="image">
+        <img src="blog-4.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>What makes our coffee special?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis neque soluta quas doloribus praesentium laborum ab, eligendi voluptatibus quos commodi fugiat quisquam tenetur minima accusamus debitis! Porro adipisci illo sapiente.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam laboriosam ipsam vero nulla aut ab illum dolorum ducimus earum sed.</p>
+        <a href="#" class="btn">learn more</a>
+    </div>
+    </div>
+
+</section>
+
+ <!-- about section end  -->
+
+ <!-- menu section start  -->
+ 
+ <section class="menu" id="menu">
+
+    <h1 class="heading">our <span>menu</span></h1>
+     
+    <div class="box-container">
+        
+        <!-- menu 1 -->
+    <div class="box">    
+        <img src="menu-1.png" alt="" style="height: 103px; width: 103px;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$15.99 <span>$20.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+     <!-- menu 2 -->
+     <div class="box">
+        <img src="menu-2.webp" alt="" style="height: 90px; width: 90px; border-radius: 50%;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$13.99 <span>$18.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+     <!-- menu 3 -->
+     <div class="box">
+        <img src="menu-3.webp" alt="" style="height: 90px; width: 90px; border-radius: 50%;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$18.99 <span>$22.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+     <!-- menu 4 -->
+     <div class="box">
+        <img src="menu-4.png" alt="" style="height: 90px; width: 90px;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$13.99 <span>$18.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+     <!-- menu 5-->
+     <div class="box">
+        <img src="menu-5.webp" alt="" style="height: 90px; width: 90px; border-radius: 50%;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$16.99 <span>$21.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+     <!-- menu 6 -->
+     <div class="box">
+        <img src="menu6.jpg" alt="" style="height: 90px; width: 90px; border-radius: 50%;">
+        <h3>tasty and healthy</h3>
+        <div class="price">$14.99 <span>$19.99</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    
+    </div>
+ </section>
+
+ <!-- menu section end  -->
+
+ <!-- products section start  -->
+
+ <section class="products" id="products">
+
+    <h1 class="heading">our <span>products</span></h1>
+    
+    <!-- big box container  -->
+    <div class="box-container">
+    <!-- product 1 -->
+        <div class="box">
+            <div class="icons">
+                <!-- create icons -->
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <!-- product image -->
+            <div class="image">
+                <img src="product-1.jpg" alt="" style="height: 270px; width: 180px;">
+            </div>
+            <!-- content -->
+             <h3>fresh coffee</h3>
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+             <!-- price -->
+              <div class="price">$15.99 <span>$20.99</span></div>
+        </div>
+    <!-- product 2 -->
+    <div class="box">
+        <div class="icons">
+            <!-- create icons -->
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <!-- product image -->
+        <div class="image">
+            <img src="product-2.jpg" alt="" style="height: 270px; width: 180px;">
+        </div>
+        <!-- content -->
+         <h3>fresh coffee</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <!-- price -->
+          <div class="price">$17.99 <span>$22.99</span></div>
+    </div>
+    <!-- product 3 -->
+    <div class="box">
+        <div class="icons">
+            <!-- create icons -->
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <!-- product image -->
+        <div class="image">
+            <img src="product-3.jpg" alt="" style="height: 270px; width: 180px;">
+        </div>
+        <!-- content -->
+         <h3>fresh coffee</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <!-- price -->
+          <div class="price">$20.99 <span>$25.99</span></div>
+    </div>
+    </div>
+ </section>
+
+ <!-- products section end -->
+ 
+<!-- review section start  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">customer's <span>review</span></h1>
+
+    <div class="box-container">
+        <!-- user 1 -->
+        <div class="box">
+            <img src="msg.png" alt="" style="height: 100px; width: 100px;" class="queto">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio maiores harum laudantium ea deserunt. Nihil nam, praesentium delectus earum sunt sequi vitae eaque dolor facere voluptate, accusamus blanditiis animi commodi?</p>
+            <img src="abhitabh.jfif" alt="" class="user" >
+            <h3>abhitabh bachchan</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+        </div>
+        <!-- user 2 -->
+        <div class="box">
+            <img src="msg.png" alt="" style="height: 100px; width: 100px;" class="queto">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio maiores harum laudantium ea deserunt. Nihil nam, praesentium delectus earum sunt sequi vitae eaque dolor facere voluptate, accusamus blanditiis animi commodi?</p>
+            <img src="sachin.webp" alt="" class="user" >
+            <h3>sachin tedul</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+        </div>
+        <!-- user 3 -->
+        <div class="box">
+            <img src="msg.png" alt="" style="height: 100px; width: 100px;" class="queto">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio maiores harum laudantium ea deserunt. Nihil nam, praesentium delectus earum sunt sequi vitae eaque dolor facere voluptate, accusamus blanditiis animi commodi?</p>
+            <img src="hamanpr.jpg" alt="" class="user" >
+            <h3>harmanpreet singh</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+        </div>
+    </div>
+</section>
+
+<!-- review section end -->
+
+<!-- contact section start  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading"><span>contact</span> us </h1>
+
+    <div class="row">
+    <!-- map show  -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.532609591163!2d81.2794391257809!3d21.21071833150309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293db100d9ff83%3A0x1d6cf1aaa82ce0c1!2sJayanti%20Nagar%2C%20Akash%20Nagar%2C%20Durg%2C%20Chhattisgarh%20491001!5e0!3m2!1sen!2sin!4v1730043309463!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- form fill -->
+        <form >
+            <h3>get it touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Your Name">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Your Email">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="Your Number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+    </div>
+</section>
+
+<!-- contact section end  -->
+
+<!-- blog section start  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">our <span>blogs</span></h1>
+
+    <div class="box-container">
+        <!-- blog 1 -->
+        <div class="box">
+
+            <div class="image">
+                <img src="blog-5.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 22st may 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+         <!-- blog 2 -->
+         <div class="box">
+
+            <div class="image">
+                <img src="blog-2.webp" alt="" >
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 17st april 2022</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+         <!-- blog-3 -->
+         <div class="box">
+
+            <div class="image">
+                <img src="blog8.webp" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 10st may 2023</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- blog section ends -->
+
+<!-- footer section start  -->
+
+<section class="footer" id="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+    
+<!-- Created By -->
+ <div class="credit">created by <span>mr. harsh sahu</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section endss -->
+    <!-- custom js file link -->
+     <script src="script.js"></script>
+</body>
+</html>
